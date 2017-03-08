@@ -66,6 +66,35 @@ Lecture 6: **Gradient Descent**
 
 [Slides, Notes and Readings](lectures/lecture6.html), [Video](https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=dd5cdda8-5810-407f-8bd0-0d20c8c89d2f)
 
-Lab 6: **Theano, GD, and SGD**
+Lab3: **Theano, GD, and SGD**
 
 [Notes and Material](lectures/lab3.html), [Video](https://vimeo.com/203542166)
+
+---
+
+### Week 4
+
+Lecture 7: **Information Theory**
+
+[Slides, Notes and Readings](lectures/lecture7.html), [Video](https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=8626c897-c1e8-48e4-89d6-f9535945654a)
+
+Lecture 8: **AIC and Simulated Annealing**
+
+[Slides, Notes and Readings](lectures/lecture8.html), [Video](https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=69902285-6bab-4236-bdaf-4f7a0e52c5ee)
+
+
+Lab4: **Simulated Annealing**
+
+[Notes and Material](lectures/lab4.html), [Video](https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=91cecfea-3737-46ff-b9a5-a7fa4c546218)
+
+---
+
+### Week 5
+
+Lecture 9: Annealing, Metropolis, Markov, and MCMC
+
+[Slides, Notes, and Readings](lectures/lecture9.html)
+
+Lecture 10: Matropolis-Hastings and Bayes, with some Discrete Sampling
+
+[Slides, Notes, and Readings](lectures/lecture10.html)
