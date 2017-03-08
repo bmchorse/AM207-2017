@@ -1,11 +1,13 @@
 ---
 title: Convexity and Jensen's Inequality
-shorttitle: Convexity and Jensen's Inequality
+shorttitle: jensens
 notebook: jensens.ipynb
 noline: 1
+summary: ""
 keywords: ['convex', "jensen's inequality"]
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

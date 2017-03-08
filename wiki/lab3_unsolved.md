@@ -1,10 +1,12 @@
 ---
 title: Lab  3 - Implementing Logistic Regression with Gradient Descent using Theano
-shorttitle: Lab  3 - Implementing Logistic Regression with Gradient Descent using Theano
+shorttitle: lab3_unsolved
 notebook: lab3_unsolved.ipynb
 noline: 1
+summary: ""
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 ## Learning Aims
 

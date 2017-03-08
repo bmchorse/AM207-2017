@@ -1,11 +1,13 @@
 ---
 title: Mathlab (TM)
-shorttitle: Mathlab (TM)
+shorttitle: Lab2
 notebook: Lab2.ipynb
 noline: 1
+summary: ""
 keywords: ['gradient descent', 'integration']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

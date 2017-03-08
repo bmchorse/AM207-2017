@@ -809,7 +809,7 @@ hr.slender {
   article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
     page-break-after: avoid; }
 
-  body header, body footer {
+  body footer {
     display: none; } }
 /* --- Icomoon icon fonts CSS --*/
 @font-face {

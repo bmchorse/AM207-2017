@@ -93,8 +93,28 @@ Lab4: **Simulated Annealing**
 
 Lecture 9: Annealing, Metropolis, Markov, and MCMC
 
-[Slides, Notes, and Readings](lectures/lecture9.html)
+[Slides, Notes, and Readings](lectures/lecture9.html), [Video](https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=204a0c4d-6446-4455-9db0-eaa0d0c25cfb)
 
 Lecture 10: Matropolis-Hastings and Bayes, with some Discrete Sampling
 
-[Slides, Notes, and Readings](lectures/lecture10.html)
+[Slides, Notes, and Readings](lectures/lecture10.html), [Video](https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=f6fa497d-1f25-4ad5-9c37-5c1e68552b3d)
+
+Lab5: Metropolis and Bayes
+
+[Notes and Material](lectures/lab5.html), [Video](https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=28967b40-8841-4459-8fa9-8dff4779601e)
+
+---
+
+### Week 6
+
+Lecture 11: Bayes
+
+[Slides, Notes, and Readings](lectures/lecture11.html), [Video](https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=4f69bad3-96ff-4613-8a3d-7d4f30992b57)
+
+Lecture 12: Gibbs and Hierarchical Models
+
+[Slides, Notes, and Readings](lectures/lecture12.html), [Video](https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=840f668a-099a-4c72-8346-d36a6d7aa772)
+
+Lab 6: Tetchy gibbs and Rat Tumor Full Bayes
+
+[Notes and Material](lectures/lab6.html)

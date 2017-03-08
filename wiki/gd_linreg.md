@@ -1,12 +1,14 @@
 ---
 title: Linear Regression with Gradient Descent
-shorttitle: Linear Regression with Gradient Descent
+shorttitle: gd_linreg
 notebook: gd_linreg.ipynb
 noline: 1
+summary: ""
 keywords: ['theano', 'linear regression', 'gradient descent']
 data: ['http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Equations for linear regression

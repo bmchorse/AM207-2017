@@ -1,10 +1,14 @@
 ---
 title: Metropolis-Hastings
-shorttitle: Metropolis-Hastings
+shorttitle: metropolishastings
 notebook: metropolishastings.ipynb
 noline: 1
+summary: ""
+keywords: ['metropolis-hastings', 'mcmc', 'detailed balance', 'discrete sampling', 'transition matrix', 'metropolis']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
+
 
 
 

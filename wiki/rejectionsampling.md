@@ -1,11 +1,13 @@
 ---
 title: Rejection Sampling
-shorttitle: Rejection Sampling
+shorttitle: rejectionsampling
 notebook: rejectionsampling.ipynb
 noline: 1
+summary: ""
 keywords: ['sampling', 'rejection sampling', 'rejection sampling on steroids']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

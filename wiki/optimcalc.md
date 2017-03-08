@@ -1,11 +1,13 @@
 ---
 title: Calculus for optimization
-shorttitle: Calculus for optimization
+shorttitle: optimcalc
 notebook: optimcalc.ipynb
 noline: 1
+summary: ""
 keywords: ['calculus', 'optimization', 'gradient descent']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

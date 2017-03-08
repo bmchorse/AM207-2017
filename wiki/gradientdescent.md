@@ -1,11 +1,13 @@
 ---
 title: Gradient Descent and SGD
-shorttitle: Gradient Descent and SGD
+shorttitle: gradientdescent
 notebook: gradientdescent.ipynb
 noline: 1
+summary: ""
 keywords: ['optimization', 'gradient descent', 'sgd', 'minibatch sgd', 'linear regression']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

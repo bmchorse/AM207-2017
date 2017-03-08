@@ -1,10 +1,14 @@
 ---
 title:  Bioassay
-shorttitle:  Bioassay
+shorttitle: bioassay
 notebook: bioassay.ipynb
 noline: 1
+summary: ""
+keywords: ['binomial regression', 'logit link', 'glm', 'bayesian', 'mcmc', 'blockwise updating', 'componentwise updating', 'metropolis', 'metropolis-hastings', 'grid-approximation', 'multiple chains', 'bioassay']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
+
 
 
 

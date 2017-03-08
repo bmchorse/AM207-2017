@@ -1,11 +1,13 @@
 ---
 title: Combinatoric optimization: choosing the best features
-shorttitle: Combinatoric optimization: choosing the best features
+shorttitle: baseball_example
 notebook: baseball_example.ipynb
 noline: 1
+summary: ""
 keywords: ['simulated annealing', 'proposal', 'energy', 'optimization', 'global minimum', 'combinatoric optimization', 'local search', 'local minimum']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 

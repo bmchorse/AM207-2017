@@ -1,11 +1,13 @@
 ---
 title:  Monte Carlo Integrals
-shorttitle:  Monte Carlo Integrals
+shorttitle: montecarlointegrals
 notebook: montecarlointegrals.ipynb
 noline: 1
+summary: ""
 keywords: ['monte-carlo', 'integration', 'uniform distribution', 'law of large numbers', 'lotus', 'central limit theorem', 'normal distribution']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

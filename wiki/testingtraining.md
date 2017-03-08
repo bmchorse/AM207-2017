@@ -1,11 +1,13 @@
 ---
 title: Learning bounds and the Test set
-shorttitle: Learning bounds and the Test set
+shorttitle: testingtraining
 notebook: testingtraining.ipynb
 noline: 1
+summary: ""
 keywords: ['empirical risk minimization', "hoeffding's inequality", 'hypothesis space', 'training error', 'out-of-sample error', 'testing set', 'training set', 'test error', 'complexity parameter']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

@@ -1,12 +1,14 @@
 ---
 title: Probability
-shorttitle: Probability
+shorttitle: probability
 notebook: probability.ipynb
 noline: 1
+summary: ""
+keywords: ['probability', 'probability rules', 'marginals', 'conditions', 'independence', 'bayes theorem', 'random variables']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
-#####  Keywords: probability, probability rules, marginals, conditions, independence, bayes theorem, random variables
 
 ## Contents
 {:.no_toc}

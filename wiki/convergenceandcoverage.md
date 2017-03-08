@@ -1,10 +1,14 @@
 ---
 title: Convergence and Coverage
-shorttitle: Convergence and Coverage
+shorttitle: convergenceandcoverage
 notebook: convergenceandcoverage.ipynb
 noline: 1
+summary: ""
+keywords: ['mcmc', 'metropolis', 'metropolis-hastings', 'step-size', 'autocorrelation']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
+
 
 
 
@@ -128,7 +132,7 @@ print("starting point was ", x0, "accepted", acc/nsamps)
 ![png](convergenceandcoverage_files/convergenceandcoverage_14_0.png)
 
 
-    starting point was  0.6446501600998319 accepted 0.43628
+    starting point was  0.49046752041999564 accepted 0.43337
 
 
 The last many samples look  very white-noise-y, which is good
@@ -136,7 +140,7 @@ The last many samples look  very white-noise-y, which is good
 
 
 ```python
-plt.plot(samps[:2*burnin], alpha=0.3);
+plt.plot(samps[-2*burnin:], alpha=0.3);
 ```
 
 
@@ -170,6 +174,21 @@ plt.plot(samps[burnin:burnin + burnin//10], alpha=0.3);
 ![png](convergenceandcoverage_files/convergenceandcoverage_20_0.png)
 
 
+And lets just plot everything after burnin for comparison with small scales and large scales further down this document...
+
+
+
+```python
+plt.plot(samps[burnin:], alpha=0.3);
+```
+
+
+
+![png](convergenceandcoverage_files/convergenceandcoverage_22_0.png)
+
+
+Very white noisy. While one may (rightfully) worry that we are seeing no structure because we aint zoomed in, we'll compare this unzoomed plot at different scales further down.
+
 We can check to see if the autocorrelation is decaying quickly...
 
 
@@ -189,7 +208,7 @@ corrplot(samps[burnin:])
 
 
 
-![png](convergenceandcoverage_files/convergenceandcoverage_23_0.png)
+![png](convergenceandcoverage_files/convergenceandcoverage_25_0.png)
 
 
 Thinning will  decrease the autocorrelation even further...
@@ -204,7 +223,7 @@ corrplot(sampsthin)
 
 
 
-![png](convergenceandcoverage_files/convergenceandcoverage_25_0.png)
+![png](convergenceandcoverage_files/convergenceandcoverage_27_0.png)
 
 
 
@@ -228,10 +247,10 @@ print("starting point was ", x0, "accepted", acc/nsamps)
 
 
 
-![png](convergenceandcoverage_files/convergenceandcoverage_26_1.png)
+![png](convergenceandcoverage_files/convergenceandcoverage_28_1.png)
 
 
-    starting point was  0.6446501600998319 accepted 0.43628
+    starting point was  0.49046752041999564 accepted 0.43337
 
 
 ![](images/robotgoodmixing.png)
@@ -251,7 +270,7 @@ acc2/nsamps
 
 
 
-    0.02989
+    0.02947
 
 
 
@@ -271,10 +290,10 @@ print("starting point was ", x0, "accepted", acc2/nsamps)
 
 
 
-![png](convergenceandcoverage_files/convergenceandcoverage_30_0.png)
+![png](convergenceandcoverage_files/convergenceandcoverage_32_0.png)
 
 
-    starting point was  0.6446501600998319 accepted 0.02989
+    starting point was  0.49046752041999564 accepted 0.02947
 
 
 ![](images/largestep.png)
@@ -282,13 +301,26 @@ print("starting point was ", x0, "accepted", acc2/nsamps)
 
 
 ```python
-plt.plot(samps2[:2*burnin], alpha=0.3);
+plt.plot(samps2[-2*burnin:], alpha=0.3);
 ```
 
 
 
-![png](convergenceandcoverage_files/convergenceandcoverage_32_0.png)
+![png](convergenceandcoverage_files/convergenceandcoverage_34_0.png)
 
+
+
+
+```python
+plt.plot(samps2[burnin:], alpha=0.3);
+```
+
+
+
+![png](convergenceandcoverage_files/convergenceandcoverage_35_0.png)
+
+
+So you can see structure even when zoomed out...not good!
 
 
 
@@ -298,7 +330,7 @@ corrplot(samps2[burnin:], 100)
 
 
 
-![png](convergenceandcoverage_files/convergenceandcoverage_33_0.png)
+![png](convergenceandcoverage_files/convergenceandcoverage_37_0.png)
 
 
 ### Small step size
@@ -316,7 +348,7 @@ acc3/nsamps
 
 
 
-    0.98909
+    0.98773
 
 
 
@@ -336,10 +368,10 @@ print("starting point was ", x0, "accepted", acc3/nsamps)
 
 
 
-![png](convergenceandcoverage_files/convergenceandcoverage_36_0.png)
+![png](convergenceandcoverage_files/convergenceandcoverage_40_0.png)
 
 
-    starting point was  0.6446501600998319 accepted 0.98909
+    starting point was  0.49046752041999564 accepted 0.98773
 
 
 ![](images/smallstep.png)
@@ -347,13 +379,26 @@ print("starting point was ", x0, "accepted", acc3/nsamps)
 
 
 ```python
-plt.plot(samps3[:2*burnin], alpha=0.3);
+plt.plot(samps3[-2*burnin:], alpha=0.3);
 ```
 
 
 
-![png](convergenceandcoverage_files/convergenceandcoverage_38_0.png)
+![png](convergenceandcoverage_files/convergenceandcoverage_42_0.png)
 
+
+
+
+```python
+plt.plot(samps3[burnin:], alpha=0.3);
+```
+
+
+
+![png](convergenceandcoverage_files/convergenceandcoverage_43_0.png)
+
+
+There's even  more structure here. Thats no way to be sampling! Sad!
 
 
 
@@ -363,7 +408,7 @@ corrplot(samps3[burnin:], 100)
 
 
 
-![png](convergenceandcoverage_files/convergenceandcoverage_39_0.png)
+![png](convergenceandcoverage_files/convergenceandcoverage_45_0.png)
 
 
 ** A good rule of thumb is to shoot for about a 30% acceptance rate**

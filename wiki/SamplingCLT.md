@@ -1,11 +1,13 @@
 ---
 title: Sampling and the Central Limit Theorem
-shorttitle: Sampling and the Central Limit Theorem
+shorttitle: SamplingCLT
 notebook: SamplingCLT.ipynb
 noline: 1
+summary: ""
 keywords: ['central limit theorem', 'sampling', 'normal distribution', 'standard error', 'sampling distribution of variance', 'sampling distribution']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

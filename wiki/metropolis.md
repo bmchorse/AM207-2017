@@ -1,10 +1,14 @@
 ---
 title: From Annealing To Metropolis
-shorttitle: From Annealing To Metropolis
+shorttitle: metropolis
 notebook: metropolis.ipynb
 noline: 1
+summary: ""
+keywords: ['simulated annealing', 'detailed balance', 'stationarity', 'metropolis', 'boltzmann distribution', 'irreducible', 'equilibrium', 'curse of dimensionality']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
+
 
 
 

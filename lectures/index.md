@@ -18,4 +18,8 @@ layout: "default"
 - [Lab 4](lab4.html): Simulated Annealing
 - [Lecture 9](lecture9.html): Annealing, Metropolis, Markov, and MCMC
 - [Lecture 10](lecture10.html): Metropolis-Hastings and Bayes
-- [Lab 5](lab5.html): Simulated Annealing
+- [Lab 5](lab5.html): Metropolis and Bayes
+- [Lecture 11](lecture11.html): Bayes
+- [Lecture 12](lecture12.html): Gibbs and Hierarchical Models
+- [Lab 6](lab6.html): Tetchy Gibbs and Rat Tumor Hierarchical Model
+- [Lecture 13](lecture13.html): Bayesian Regression and pymc3

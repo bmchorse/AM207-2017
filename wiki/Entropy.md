@@ -3,9 +3,11 @@ title: Entropy
 shorttitle: Entropy
 notebook: Entropy.ipynb
 noline: 1
-keywords: ['entropy', 'maxent', 'binomial distribution', 'normal distribution', 'statistical mechanics']
+summary: ""
+keywords: ['entropy', 'maxent', 'binomial', 'normal distribution', 'statistical mechanics']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 

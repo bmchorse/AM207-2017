@@ -1,11 +1,13 @@
 ---
 title:  Importance Sampling
-shorttitle:  Importance Sampling
+shorttitle: importancesampling
 notebook: importancesampling.ipynb
 noline: 1
+summary: ""
 keywords: ['importance sampling', 'expectations', 'integration', 'sampling']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

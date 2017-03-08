@@ -1,11 +1,13 @@
 ---
 title: The Inverse Transform
-shorttitle: The Inverse Transform
+shorttitle: inversetransform
 notebook: inversetransform.ipynb
 noline: 1
+summary: ""
 keywords: ['sampling', 'inverse transform', 'cdf', 'box-muller', 'normal distribution']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

@@ -1,10 +1,14 @@
 ---
 title: Markov Chains and MCMC
-shorttitle: Markov Chains and MCMC
+shorttitle: markov
 notebook: markov.ipynb
 noline: 1
+summary: ""
+keywords: ['markov chain', 'mcmc', 'detailed balance', 'metropolis', 'stationarity', 'ergodicity', 'transition matrix', 'metropolis-hastings', 'irreducible']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
+
 
 
 

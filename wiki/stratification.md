@@ -1,11 +1,13 @@
 ---
 title: Stratification for Variance Reduction
-shorttitle: Stratification for Variance Reduction
+shorttitle: stratification
 notebook: stratification.ipynb
 noline: 1
+summary: ""
 keywords: ['variance reduction', 'stratification', '']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

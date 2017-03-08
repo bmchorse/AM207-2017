@@ -1,11 +1,13 @@
 ---
 title: Regularization
-shorttitle: Regularization
+shorttitle: regularization
 notebook: regularization.ipynb
 noline: 1
+summary: ""
 keywords: ['regularization', 'linear regression', 'cross-validation', 'ridge', 'lasso', 'complexity parameter']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

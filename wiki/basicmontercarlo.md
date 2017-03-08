@@ -1,11 +1,13 @@
 ---
 title: Basic Monte Carlo
-shorttitle: Basic Monte Carlo
+shorttitle: basicmontercarlo
 notebook: basicmontercarlo.ipynb
 noline: 1
+summary: ""
 keywords: ['sampling', 'rejection sampling', 'integration', 'lotus', 'law of large numbers', 'monte-carlo', 'expectations']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

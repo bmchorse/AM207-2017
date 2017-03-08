@@ -1,11 +1,13 @@
 ---
 title: Distributions example -  elections
-shorttitle: Distributions example -  elections
+shorttitle: distrib-example
 notebook: distrib-example.ipynb
 noline: 1
+summary: ""
 keywords: ['bernoulli distribution', 'binomial distribution', 'normal distribution', 'central limit theorem', 'uniform distribution', 'empirical distribution', 'elections']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

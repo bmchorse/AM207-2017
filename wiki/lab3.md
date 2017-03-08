@@ -1,12 +1,14 @@
 ---
 title: Lab  3 - Implementing Logistic Regression with Gradient Descent using Theano
-shorttitle: Lab  3 - Implementing Logistic Regression with Gradient Descent using Theano
+shorttitle: lab3
 notebook: lab3.ipynb
 noline: 1
+summary: ""
 keywords: ['gradient descent', 'logistic regression', 'theano', 'sgd', 'minibatch sgd']
 data: ['data/iris_dataset.pickle']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

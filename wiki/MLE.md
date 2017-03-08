@@ -1,11 +1,13 @@
 ---
 title: Maximum Likelihood Estimation
-shorttitle: Maximum Likelihood Estimation
+shorttitle: MLE
 notebook: MLE.ipynb
 noline: 1
+summary: ""
 keywords: ['maximum likelihood', 'parametric model', 'linear regression', 'logistic regression', 'inference', 'exponential distribution']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents

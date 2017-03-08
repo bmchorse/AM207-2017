@@ -1,10 +1,14 @@
 ---
 title:  Infectious disease in a city: Bayes
-shorttitle:  Infectious disease in a city: Bayes
+shorttitle: citydisease
 notebook: citydisease.ipynb
 noline: 1
+summary: ""
+keywords: ['sampling as marginalization', 'beta', 'binomial', 'beta-binomial', 'bayesian']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
+
 
 
 
@@ -38,7 +42,7 @@ For each individual the probability of being infected is $\theta$ so the total
 number of infected people given a sample of 20 is given 
 by a binomial. 
 
-$$\Lik = p(n,k|\theta) = Binom(n,k, \theta)=\frac{n!}{k! (n-k)! } \, \theta^k \, (1-\theta)^{(n-k)} $$
+$$\cal{L} = p(n,k|\theta) = Binom(n,k, \theta)=\frac{n!}{k! (n-k)! } \, \theta^k \, (1-\theta)^{(n-k)} $$
 
 Now, studies from other cities shows that $\theta$ varies from 0.05 to 0.20 with an average value  of 0.10. 
 
@@ -177,7 +181,7 @@ posts
 
 The posterior predictive:
 
-$$p(y^{*} \vert D) = \int s\theta p(y^{*} \vert \theta) p(\theta \vert D)$$
+$$p(y^{*} \vert D) = \int d\theta p(y^{*} \vert \theta) p(\theta \vert D)$$
 
 seems to be a complex integral. But really from the perspective of sampling, all we have to do is to first draw the thetas from the posterior, then draw y's from the likelihood, and histogram the likelihood. This is the same logic as marginal posteriors, with the addition of the fact that we must draw  y from the likelihood once we drew $\theta$. You might think that we have to draw multiple $y$s at a theta, but this is already taken care of for us because of the nature of sampling. We already have multiple $\theta$a in a bin.
 
@@ -222,11 +226,4 @@ plt.legend()
 
 
 ![png](citydisease_files/citydisease_14_1.png)
-
-
-
-
-```python
-
-```
 

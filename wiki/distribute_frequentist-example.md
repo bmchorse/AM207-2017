@@ -1,10 +1,12 @@
 ---
 title: Lab  1 - A frequentist example
-shorttitle: Lab  1 - A frequentist example
+shorttitle: distribute_frequentist-example
 notebook: distribute_frequentist-example.ipynb
 noline: 1
+summary: ""
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 ## Learning Aims
 

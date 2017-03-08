@@ -1,10 +1,14 @@
 ---
 title: Bayesian Statistics
-shorttitle: Bayesian Statistics
+shorttitle: bayes
 notebook: bayes.ipynb
 noline: 1
+summary: ""
+keywords: ['bayesian', 'binomial', 'beta-binomial', 'normal-normal model', 'map']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
+
 
 
 

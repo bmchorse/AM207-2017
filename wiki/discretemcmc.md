@@ -1,10 +1,14 @@
 ---
 title:  Sampling from a discrete distribution
-shorttitle:  Sampling from a discrete distribution
+shorttitle: discretemcmc
 notebook: discretemcmc.ipynb
 noline: 1
+summary: ""
+keywords: ['discrete sampling', 'mcmc', 'metropolis', 'poisson', 'proposal matrix', '']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
+
 
 
 

@@ -1,11 +1,13 @@
 ---
 title: Expectations and the Law of Large Numbers
-shorttitle: Expectations and the Law of Large Numbers
+shorttitle: Expectations
 notebook: Expectations.ipynb
 noline: 1
+summary: ""
 keywords: ['expectations', 'law of large numbers', 'lotus', 'distributions', 'probability']
 layout: wiki
 ---
+{% assign links = site.data.wikilinks %}
 
 
 ## Contents
