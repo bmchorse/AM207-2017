@@ -117,4 +117,20 @@ Lecture 12: Gibbs and Hierarchical Models
 
 Lab 6: Tetchy gibbs and Rat Tumor Full Bayes
 
-[Notes and Material](lectures/lab6.html)
+[Notes and Material](lectures/lab6.html), [Video](https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=9479a00b-da07-48fd-bfa2-040f1aafe126)
+
+---
+
+### Week 7
+
+Lecture 13: Bayes
+
+[Slides, Notes, and Readings](lectures/lecture13.html), [Video](https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=73c1afbc-93a2-44b7-87a5-10bb804f7c97)
+
+Lecture 14: Gibbs and Hierarchical Models
+
+[Slides, Notes, and Readings](lectures/lecture14.html), [Video](https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=01d02827-eee9-4e02-9a56-74f11e4b6bb2)
+
+Lab 7: Bioassay and tumors in pymc3
+
+[Notes and Material](lectures/lab7.html)
