@@ -25,3 +25,6 @@ layout: "default"
 - [Lecture 13](lecture13.html): Bayesian Regression and pymc3
 - [Lecture 14](lecture14.html): pymc3 and MCMC convergence
 - [Lab 7](lab7.html): pymc with bioassay and rat tumors
+- [Lecture 15](lecture15.html): Recap and Data Aug to HMC
+- [Lecture 16](lecture16.html): Recap and Slice and HMC
+- [Lab 8](lab8.html): pymc, da, theano, slice
