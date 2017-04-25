@@ -28,3 +28,16 @@ layout: "default"
 - [Lecture 15](lecture15.html): Recap and Data Aug to HMC
 - [Lecture 16](lecture16.html): Recap and Slice and HMC
 - [Lab 8](lab8.html): pymc, da, theano, slice
+- [Lecture 17](lecture17.html): HMC, and tetchy hierarchicals
+- [Lecture 18](lecture18.html): HMC tuning, glm, Model checking
+- [Lab 9](lab9.html): Gelman Schools and Homework
+- [Lecture 19](lecture19.html): glm, Model checking
+- [Lecture 20](lecture20.html): glm, Model comparison
+- [Lab 10](lab10.html): Prosocial Chimps glm
+- [Lecture 21](lecture21.html): Utility, Model comparison
+- [Lecture 22](lecture22.html): Cross-Validation, Mixture Models
+- [Lab 11](lab11.html): Semi-Supervised learning and log-sum-exp marginals
+- [Lecture 23](lecture23.html): Expectation Maximization
+- [Lecture 24](lecture24.html): Expectation Maximization and Variational Inference
+- [Lab 12](lab12.html): Mixtures and Correlation
+- [Lecture 25](lecture25.html): Gaussian Processes

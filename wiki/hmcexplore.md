@@ -344,7 +344,7 @@ so that $K(p) = \sum_i\frac{p_i^2}{2m_i} $ and M is diagonal square matrix with 
 
 This is a euclidean-gaussian choice: euclidean as it corresponds to a euclidean norm on the co-ordinate space and gaussian as the conditional distribution it induces is Gaussian. Gaussian choices perform well in higher dimensions as marginal energy distributions become a convolution of more and more parameters and a kind of central-limit theorem holds.
 
-If one were to set the inverse mass matrix to the covariance of the target distribution then one would maximally decorrelate the target distribution. This can be seen thus: appy the transformation $p \to \sqrt{M^{-1}}p$ which simplifies the kinetic energy but transforms the potential via $q \to \sqrt{M}q$ due to the duality and volume preservation of $q,p$ phase space. Then you are effectively dividing $q$ by the squareoot of its distributions covariance and carrying out our decorrelation. 
+If one were to set the inverse mass matrix to the covariance of the target distribution then one would maximally decorrelate the target distribution. This can be seen thus: apply the transformation $p \to \sqrt{M^{-1}}p$ which simplifies the kinetic energy but transforms the potential via $q \to \sqrt{M}q$ due to the duality and volume preservation of $q,p$ phase space. Then you are effectively dividing $q$ by the squareoot of its distributions covariance and carrying out our decorrelation. 
 
 We can do this by computing a target covariance in a warm-up (this is not burn-in) phase of our sampler and then setting the kinetic energy appropriately to make an optimized chain.
 
@@ -357,7 +357,7 @@ What we need to do is to find the point at which the orbital expectations conver
 
 This time can be represented with two parameters, $L$, the number of iterations for which we run the Hamiltonian dynamics, and $\epsilon$ which is the (small) length of time each iteration is run. We say iterations as to solve Hamiltonian differential equations we will need to carry out a numerical solution of these equations with a small time-grid size. Then the total integration time is $L \times \epsilon$. These are parameters we need to play with, for this and other reasons (see below).
 
-But in general, no single optimal integration time will hold...this depends on which orbit in which level set we are. In general, for a distribution more heavy tailed than a Gaussian, as we move to higher energy level sets in the tails, we will need more time to integrate over there (this can be shown analytically in 1-D$. Thus if we used a static integration time everywhere, the tails might be very poorly explored (and presumably more of the typical set is in the tails of these distributuions than for thin tailed ones).
+But in general, no single optimal integration time will hold...this depends on which orbit in which level set we are. In general, for a distribution more heavy tailed than a Gaussian, as we move to higher energy level sets in the tails, we will need more time to integrate over there (this can be shown analytically in 1-D$). Thus if we used a static integration time everywhere, the tails might be very poorly explored (and presumably more of the typical set is in the tails of these distributuions than for thin tailed ones.
 
 Thus in general we will want to identify the integration time dynamically. This is the idea behind the No U-Turn Sampler (NUTS) which is the default in both pymc3 and Stan: the basic idea is that when the Hamiltonian flows starts to double back on itself and retrace its steps, we resample momentum again.
 
@@ -458,6 +458,7 @@ Any method that has only *shear* transforms: ie something that changes only one 
 * $q_i(t + \epsilon) = q_i(t) + \epsilon \frac{p_i(t+\frac{\epsilon}{2})}{m_i} $
 * $p_i(t + \epsilon) = p_i(t+\frac{\epsilon}{2}) - \frac{\epsilon}{2}\frac{\partial U}{\partial q_i}\mid_{q(t+ \epsilon)} $
 
+If we do this repeatedly, the first and last steps can be combined as you can see in the code below.
 
 Notice that  volume is preserved and the trajectory is very stable.  In addition the discretization is reversible.  The leapfrog method (named because updating momentum and position leapfrog each other) is a symplectic discretization.  
 

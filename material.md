@@ -144,5 +144,50 @@ Lecture 16: Recap and Slice and HMC
 [Slides, Notes, and Readings](lectures/lecture16.html)
 
 Lab 8: pymc, da, theano, slice
-
 [Notes and Material](lectures/lab8.html)
+
+### Week 9
+
+Lecture 17: HMC, and tetchy hierarchicals
+[Slides, Notes, and Readings](lectures/lecture17.html)
+
+Lecture 18: HMC tuning, glm, Model checking
+[Slides, Notes, and Readings](lectures/lecture18.html)
+
+Lab 9: Gelman Schools, homework
+[Notes and Material](lectures/lab9.html)
+
+### Week 10
+
+Lecture 19: Model Checking, glms
+[Slides, Notes, and Readings](lectures/lecture19.html)
+
+Lecture 20: Model Comparison, glms
+[Slides, Notes, and Readings](lectures/lecture20.html)
+
+Lab 10: Prosocial Chimps Bernoulli glm
+[Notes and Material](lectures/lab10.html)
+
+### Week 11
+
+Lecture 21: Utility, Model Comparison
+[Slides, Notes, and Readings](lectures/lecture21.html)
+
+Lecture 22: x-val, Mixture Models
+[Slides, Notes, and Readings](lectures/lecture22.html)
+
+Lab11: Semi-Supervised learning and log-sum-exp marginals
+[Notes and Material](lectures/lab11.html)
+
+### Week 12
+
+Lecture 23: Expectation Maximization
+[Slides, Notes, and Readings](lectures/lecture23.html)
+
+Lecture 24: Expectation Maximization and Variational Inference
+[Slides, Notes, and Readings](lectures/lecture24.html)
+
+### Week 13
+
+Lecture 25: Gaussian Processes
+[Slides, Notes, and Readings](lectures/lecture25.html)
